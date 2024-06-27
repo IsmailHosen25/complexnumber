@@ -5,7 +5,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.complexnumber.ComplexViewControler">
    <children>
       <Label layoutX="22.0" layoutY="37.0" prefHeight="18.0" prefWidth="221.0" text="Enter real number of 1st complex No:" />
