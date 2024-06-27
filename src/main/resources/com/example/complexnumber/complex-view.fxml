@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.complexnumber.ComplexViewControler">
+   <children>
+      <Label layoutX="22.0" layoutY="37.0" prefHeight="18.0" prefWidth="221.0" text="Enter real number of 1st complex No:" />
+      <Label layoutX="22.0" layoutY="76.0" prefHeight="18.0" prefWidth="221.0" text="Enter img number of 1st complex No:" />
+      <Label layoutX="22.0" layoutY="117.0" prefHeight="18.0" prefWidth="221.0" text="Enter real number of 2nd complex No:" />
+      <Label layoutX="22.0" layoutY="162.0" prefHeight="18.0" prefWidth="221.0" text="Enter img number of 2nd complex No:" />
+      <TextField fx:id="firstrealcomp" layoutX="256.0" layoutY="33.0" />
+      <TextField fx:id="secrealcom" layoutX="256.0" layoutY="113.0" />
+      <TextField fx:id="secimgcom" layoutX="256.0" layoutY="158.0" />
+      <TextField fx:id="firstimgcom" layoutX="256.0" layoutY="72.0" />
+      <Button layoutX="133.0" layoutY="217.0" mnemonicParsing="false" onAction="#addcomplex" text="Add Complex" />
+      <Button layoutX="270.0" layoutY="217.0" mnemonicParsing="false" onAction="#subcomplex" text="Sub complex" />
+      <Label fx:id="showresult" layoutX="32.0" layoutY="289.0" prefHeight="38.0" prefWidth="536.0" style="-fx-background-color: lavender;" text="    Result: " />
+   </children>
+</AnchorPane>
